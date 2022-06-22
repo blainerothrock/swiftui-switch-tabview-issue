@@ -9,7 +9,7 @@ import SwiftUI
 
 struct OffView: View {
     
-    @ObservedObject var vm: ViewModel
+    @StateObject var vm: ViewModel
     
     var body: some View {
         VStack {

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct OnOffSwitchView: View {
     
-    @ObservedObject var vm = ViewModel()
+    @StateObject var vm = ViewModel()
     
     var body: some View {
         switch vm.state {
